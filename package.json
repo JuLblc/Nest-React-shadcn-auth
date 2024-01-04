@@ -1,0 +1,11 @@
+{
+    "scripts": {
+      "start:app": "cd app && npm start",
+      "start:backend": "cd backend && npm start",
+      "dev": "concurrently \"cd app && pnpm dev\" \"cd backend && pnpm dev\""
+    },  
+      "devDependencies": {
+          "concurrently": "^8.2.1"
+      }  
+  }
+  
